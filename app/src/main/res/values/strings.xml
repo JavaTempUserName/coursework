@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IT Engineer\'s Calculator</string>
+
+    <string name="string_textview_login">Log in to the app</string>
+    <string name="string_edittext_login">Login</string>
+    <string name="string_edittext_password">Password</string>
+    <string name="string_button_login">Log in</string>
+    <string name="string_login_failed">Login failed</string>
+
+    <string name="string_textview_developer">Developer: Kramoleev A.S., group: RIBO–01–22</string>
+
+    <string-array name="string_array_listview_choice_list">
+        <item>calculation of the subnet by IP address and mask</item>
+        <item>calculation of data transfer time based on data transfer rate and data volume</item>
+        <item>generation of strong passwords with the ability to copy</item>
+        <item>calculation of PoE by cable type, supply voltage, cable length, number of devices</item>
+    </string-array>
+
+    <string name="string_edittext_ip">IP</string>
+    <string name="string_edittext_mask">Mask</string>
+
+    <string name="string_button_calculate">Calculate</string>
+    <string name="string_textview_result">Result</string>
+    <string name="string_calculation_failed">Calculation failed</string>
+    <string name="string_button_back">Back</string>
+
+    <string name="string_edittext_data_transfer_rate">Data transfer rate (GB/s)</string>
+    <string name="string_edittext_data_volume">Data volume (GB)</string>
+
+    <string name="string_button_generate">Generate</string>
+
+    <string name="string_edittext_cable_type">Cable type</string>
+    <string name="string_edittext_supply_voltage">Supply voltage (V)</string>
+    <string name="string_edittext_cable_length">Cable length (m)</string>
+    <string name="string_edittext_number_of_devices">Number of devices</string>
+</resources>

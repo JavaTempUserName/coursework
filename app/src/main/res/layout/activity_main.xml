@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:text="@string/string_textview_login"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/edittext_login"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10sp"
+        android:layout_below="@id/textview_login"
+        android:layout_marginTop="20sp"
+        android:inputType="text"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:hint="@string/string_edittext_login"
+        android:textSize="20sp"
+        android:background="@drawable/edittext_borders"/>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10sp"
+        android:layout_below="@id/edittext_login"
+        android:layout_marginTop="20sp"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:hint="@string/string_edittext_password"
+        android:textSize="20sp"
+        android:background="@drawable/edittext_borders"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edittext_password"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/black"
+        android:text="@string/string_button_login"/>
+
+    <TextView
+        android:id="@+id/textview_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp"
+        android:text="@string/string_textview_developer"
+        android:textSize="11sp"
+        android:textColor="@color/gray"/>
+
+</RelativeLayout>

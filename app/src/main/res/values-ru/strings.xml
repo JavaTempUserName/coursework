@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор IT-инженера</string>
+
+    <string name="string_textview_login">Вход в приложение</string>
+    <string name="string_edittext_login">Логин</string>
+    <string name="string_edittext_password">Пароль</string>
+    <string name="string_button_login">Войти</string>
+    <string name="string_login_failed">Вход не выполнен</string>
+
+    <string name="string_textview_developer">Разработчик: Крамолеев Александр Сергеевич, группа: РИБО–01–22</string>
+
+    <string-array name="string_array_listview_choice_list">
+        <item>расчет подсети по IP-адресу и маске</item>
+        <item>расчет времени передачи данных на основе сведений о скорости передачи и объеме данных</item>
+        <item>генерация надежных паролей с возможностью копирования</item>
+        <item>расчет PoE по типу кабеля, напряжению питания, длине кабеля, количеству устройств</item>
+    </string-array>
+
+    <string name="string_edittext_ip">IP</string>
+    <string name="string_edittext_mask">Маска</string>
+
+    <string name="string_button_calculate">Посчитать</string>
+    <string name="string_textview_result">Результат</string>
+    <string name="string_calculation_failed">Не удалось посчитать</string>
+    <string name="string_button_back">Назад</string>
+
+    <string name="string_edittext_data_transfer_rate">Скорость передачи данных (ГБ/с)</string>
+    <string name="string_edittext_data_volume">Объём данных (ГБ)</string>
+
+    <string name="string_button_generate">Генерировать</string>
+
+    <string name="string_edittext_cable_type">Тип кабеля</string>
+    <string name="string_edittext_supply_voltage">Напряжение питания (В)</string>
+    <string name="string_edittext_cable_length">Длина кабеля (м)</string>
+    <string name="string_edittext_number_of_devices">Количество устройств</string>
+</resources>
